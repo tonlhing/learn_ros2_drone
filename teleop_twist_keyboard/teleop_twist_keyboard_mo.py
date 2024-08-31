@@ -15,7 +15,7 @@ import roslib; roslib.load_manifest('teleop_twist_keyboard')
 import rospy
 
 from geometry_msgs.msg import Twist
-import std_msgs.msg  # Import std_msgs for the Empty message
+from std_msgs.msg import Empty  # Import std_msgs for the Empty message
 
 import sys, select, termios, tty
 
